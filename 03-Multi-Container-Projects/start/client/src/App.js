@@ -12,7 +12,7 @@ function App() {
   }, [])
 
   const fetchPlayers = async () => {
-    let data = await axios.get("http://localhost:5000")
+    let data = await axios.get("http://localhost:9000")
     setPlayers(data.data)
   }
 
